@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: yellowgreen;
+}
+h1
+{
+    background-color: red;
+    color: black;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    
+}
+
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-borad
+{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-top: 3rem;
+gap: 3rem;
+}
+
+#Player-1 , #Player-2
+{
+    font-size: 4rem;
+}
+
+.message_displayer
+{
+    margin-top: 5rem;
+}
+#Message
+{
+    margin-top: 5rem;
+    background-color:green;
+    color:white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
